@@ -9,7 +9,7 @@ let guests = 12;
 let sandwichesPerGuest = 2;
 let totalSandwiches = guests * sandwichesPerGuest;
 
-console.log("The total amount of sandwiches needed is" + totalSandwiches)
+console.log("The total amount of sandwiches needed is " + totalSandwiches)
 
 
 // 2. Movie Budget
@@ -22,7 +22,7 @@ let ticketPrice = 9.50;
 let fullTickets = Math.floor(budget / ticketPrice);
 let leftover = budget % ticketPrice
 
-console. log("The amount of full tickets you can buy is" + fullTickets + "and the leftover amount is $" + leftover.toFixed(2))
+console. log("The amount of full tickets you can buy is " + fullTickets + "and the leftover amount is $" + leftover.toFixed(2))
 
 
 /* 3. Dog Age Converter
@@ -32,7 +32,7 @@ Convert a dog’s age to human years
 let dogAge = 3;
 let humanAge = dogAge * 7;
 
-console.log("The dog's age in human years is" + humanAge)
+console.log("The dog's age in human years is " + humanAge)
 
 
 // 4. Combine and Print
